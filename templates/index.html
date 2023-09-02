@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Device Control</title>
+</head>
+<body>
+    <h1>Device Control</h1>
+    <button id="ledButton">Toggle LED</button>
+    <button id="buzzerButton">Toggle Buzzer</button>
+    <br>
+    
+    
+    <script>
+        const ledButton = document.getElementById('ledButton');
+        const buzzerButton = document.getElementById('buzzerButton');
+        
+
+        ledButton.addEventListener('click', () => {
+            fetch('/toggle_led');
+        });
+
+        buzzerButton.addEventListener('click', () => {
+            fetch('/toggle_buzzer');
+        });
+
+        servoOnButton.addEventListener('click', () => {
+            fetch('/set_servo_angle?angle=0');
+        });
+
+        servoOffButton.addEventListener('click', () => {
+            fetch('/set_servo_angle?angle=180');
+        });
+    </script>
+</body>
+</html>
