@@ -1,6 +1,8 @@
 # raspberry_pi_led_buzzer_html
 ![raspberry_pi_led_buzzer](https://github.com/qbi777/raspberry_pi_led_buzzer_html/assets/123941775/11c8fa44-b86d-4cd4-b2f8-934608a4cfe3)
-
+Note:
+  The template folder and the python folder want to take place in the same folder.
+  
 Raspberry Pi LED and Buzzer Control with Flask This Python script allows you to control an LED and a buzzer using a Raspberry Pi through a web-based interface created with the Flask framework. The web page provides buttons to toggle the LED and the buzzer on and off.
 ![html_led_buzzer](https://github.com/qbi777/raspberry_pi_led_buzzer_html/assets/123941775/1a01ece4-04c0-4ac7-af61-f2063475fb0d)
 Prerequisites
